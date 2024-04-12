@@ -81,7 +81,7 @@ void printRecords(struct RecordType pData[], int dataSz) {
 int main(void) {
     struct RecordType *pRecords;
     int recordSz = 0;
-    int hashTableSize = 10; // Assuming a hash table size of 10 for demonstration
+    int hashTableSize = 23; // Set hash table size to 23 per TA instructions
 
     // Parse data from "input_lab_9.txt"
     recordSz = parseData("input_lab_9.txt", &pRecords);
